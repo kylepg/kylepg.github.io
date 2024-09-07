@@ -38,7 +38,7 @@ jobs:
       - name: Run NPM Install
         run: npm install
       - name: Run the static build step
-        run: npx @devdojo/static build https://kylepg.github.io/static/
+        run: npx @devdojo/static build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
